@@ -1,0 +1,23 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Laptop",
+            "price": 60000,
+            "category": "Electronics"
+        },
+        {
+            "id": "2",
+            "name": "Watch",
+            "price": 2500,
+            "category": "Accessories"
+        },
+        {
+            "name": "AC",
+            "price": 87000,
+            "category": "electronics",
+            "id": "5kqDNHZs_js"
+        }
+    ],
+    "$schema": "./node_modules/json-server/schema.json"
+}
