@@ -6,14 +6,12 @@ function ProductList() {
     const [products, setproducts] = useState([])
 
     const getProducts = async () => {
-        const response = await axios.get('http://localhost:3001/products')
+        const response = await axios.get('https://react-test-tr7o.onrender.com/products')
         setproducts(response.data)
     }
 
-
     const deleteProduct = async (id) => {
-        await axios.delete(`http://localhost:3001/products/${id}`)
-
+        await axios.delete(`https://react-test-tr7o.onrender.com/products/${id}`)
 
         setproducts(products.filter((product) => product.id !== id))
     }
