@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://localhost:3001/products';
+const BASE_URL = 'https://react-test-tr7o.onrender.com/products';
 
 export const getProducts = async () => {
     return await axios.get(BASE_URL);
